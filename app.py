@@ -65,6 +65,8 @@ apply_custom_footer()
 colors = get_theme_colors()
 
 # Header
+st.markdown("<br><br><br/>", unsafe_allow_html=True)  
+
 st.markdown('<h1 class="main-header-reduced">👋 Talk to your coding mentor, Hitesh Sir🚀</h1>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Empowering You to Code with Confidence ☕️💻 – Your Friendly AI Tech Mentor</p>', unsafe_allow_html=True)
 
