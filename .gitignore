@@ -1,0 +1,6 @@
+.env
+prompt.py
+chat.py
+
+__pycache__
+venv
