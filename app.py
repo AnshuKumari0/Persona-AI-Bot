@@ -16,7 +16,8 @@ st.set_page_config(
 )
 
 # API Configuration
-API_BASE_URL = "http://localhost:8000"  
+API_BASE_URL = "https://persona-ai-bot.onrender.com"  
+# API_BASE_URL = "http://localhost:8000"  
 
 def check_api_health() -> bool:
     """Check if the FastAPI backend is running"""
